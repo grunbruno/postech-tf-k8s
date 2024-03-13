@@ -1,1 +1,1 @@
-Projeto FIAP - Tech Challenge
+Projeto FIAP - Tech Challenge - Terraform EKS
