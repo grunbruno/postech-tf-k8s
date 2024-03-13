@@ -4,10 +4,10 @@ on:
   push:
     branches: [ $default-branch ]
   pull_request:
-    branches: [ $default-branch ]
+    branches: [ '*' ]
 
 jobs:
 
   Deploy_EKS:
-     uses: ./.github/workflows/EKS.yml
+     uses: ./.github/workflows/tf-eks.yml
      secrets: inherit
