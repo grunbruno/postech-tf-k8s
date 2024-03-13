@@ -1,7 +1,7 @@
 module "prod" {
   source = "../../infra"
   
-  cluster_name = "TechChallengeCluster"
+  cluster_name = "TechChallengeClusterPROD"
 }
 
 output "LBName" {
