@@ -28,7 +28,10 @@ jobs:
 
     - name: Terraform Validate
       run: terraform validate
-      
+
+    - name: PWD
+      run: pwd
+
     - name: Terraform Apply
       run: terraform apply -auto-approve 
     
