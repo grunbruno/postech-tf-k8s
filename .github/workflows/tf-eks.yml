@@ -19,30 +19,18 @@ jobs:
            
     - name: HashiCorp - Setup Terraform
       uses: hashicorp/setup-terraform@v3
-
-    - name: Navigate to Terraform directory
-      run: cd env/prod
-
+ 
     - name: Terraform Init
-      run: terraform init 
-
-    - name: Navigate to Terraform directory
-      run: cd env/prod
+      run: terraform -chdir=env/prod init 
 
     - name: Terraform Validate
-      run: terraform validate
-
-    - name: Navigate to Terraform directory
-      run: cd env/prod
+      run: terraform -chdir=env/prod validate
 
     - name: LS
       run: ls
 
     - name: Terraform Apply
-      run: terraform apply -chdir=env/prod -auto-approve 
-    
-    - name: Navigate to Terraform directory
-      run: cd env/prod
-
-    - run: echo "$(terraform output -raw LBHostname)"
+      run: terraform -chdir=env/prod apply -auto-approve 
+  
+    - run: echo "$(terraform -chdir=env/prod output -raw LBHostname)"
       id: LBHostname
