@@ -35,14 +35,14 @@ jobs:
     - name: Navigate to Terraform directory
       run: cd env/prod
 
-    - name: PWD
-      run: pwd
+    - name: LS
+      run: ls
 
     - name: Terraform Apply
-      run: terraform apply -auto-approve 
+      run: terraform apply -chdir=env/prod -auto-approve 
     
     - name: Navigate to Terraform directory
       run: cd env/prod
-      
+
     - run: echo "$(terraform output -raw LBHostname)"
       id: LBHostname
