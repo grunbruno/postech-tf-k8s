@@ -26,8 +26,14 @@ jobs:
     - name: Terraform Init
       run: terraform init 
 
+    - name: Navigate to Terraform directory
+      run: cd env/prod
+
     - name: Terraform Validate
       run: terraform validate
+
+    - name: Navigate to Terraform directory
+      run: cd env/prod
 
     - name: PWD
       run: pwd
@@ -35,5 +41,8 @@ jobs:
     - name: Terraform Apply
       run: terraform apply -auto-approve 
     
+    - name: Navigate to Terraform directory
+      run: cd env/prod
+      
     - run: echo "$(terraform output -raw LBHostname)"
       id: LBHostname
