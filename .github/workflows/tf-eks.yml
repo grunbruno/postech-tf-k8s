@@ -18,7 +18,7 @@ jobs:
         aws-region: us-east-1
            
     - name: HashiCorp - Setup Terraform
-      uses: hashicorp/setup-terraform@v3.27
+      uses: hashicorp/setup-terraform@v3
       
     - run: terraform -chdir=/env/prod init
 
