@@ -1,0 +1,13 @@
+name: Go
+
+on:
+  push:
+    branches: [ $default-branch ]
+  pull_request:
+    branches: [ $default-branch ]
+
+jobs:
+
+  Deploy_EKS:
+     uses: ./.github/workflows/EKS.yml
+     secrets: inherit
