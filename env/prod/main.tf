@@ -4,7 +4,7 @@ module "prod" {
   cluster_name = "TechChallengeClusterPROD"
 }
 
-output "LBName" {
+/* output "LBName" {
   value = module.prod.load_balancer_name
 }
 
@@ -15,3 +15,4 @@ output "LBHostname" {
 output "LBInfo" {
   value = module.prod.load_balancer_info
 }
+ */
