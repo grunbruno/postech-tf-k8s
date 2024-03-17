@@ -4,4 +4,4 @@ metadata:
   name: app-configmap
 data:
   PORT: "3000"
-  MONGO_URI: "mongodb://mongodb-pod-svc:80"
+  MONGO_URI: "mongodb+srv://admin:fastfood321@fastfood-cluster.oziogpl.mongodb.net/fastfood"
