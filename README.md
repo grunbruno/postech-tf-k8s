@@ -7,7 +7,7 @@ Link do vídeo detalhando DB pode ser visto <a href="" target="_blank">aqui</a> 
 
 ### Outros repositórios da fase:
 <b>App Node com CI/CD:</b> https://github.com/posttech-grupo60/postech-fiap<br>
-<b>Lambda:</b> [https://github.com/posttech-grupo60/postech-fiap](https://github.com/posttech-grupo60/postech-fiap-tf-lambda) <br>
+<b>Lambda:</b> https://github.com/Marcelojau/fiap-pos-tech-lambda <br>
 <b>DB:</b> https://github.com/posttech-grupo60/postech-fiap-tf-db
 
 ### Integrantes Grupo 76
