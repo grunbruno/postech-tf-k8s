@@ -3,7 +3,7 @@
 
 Link do vídeo detalhando Infra pode ser visto <a href="https://www.youtube.com/watch?v=NSo-g591sfc" target="_blank">aqui</a> <br>
 Link do vídeo detalhando Lambda pode ser visto <a href="https://www.youtube.com/watch?v=bhSfoafsJRI" target="_blank">aqui</a> <br>
-Link do vídeo detalhando DB pode ser visto <a href="" target="_blank">aqui</a> <br>
+Link do vídeo detalhando DB pode ser visto <a href="https://youtu.be/zwMHTSwiaRA" target="_blank">aqui</a> <br>
 
 ### Outros repositórios da fase:
 <b>App Node com CI/CD:</b> https://github.com/posttech-grupo60/postech-fiap<br>
